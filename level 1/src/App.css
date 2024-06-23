@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-color: #343837cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #151a17cc;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #dedde3;
+  width: 300px; 
+  max-width: 100%; 
+  text-align: left;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container select {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #2dd7e0;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 10px 15px;
+  background-color: hsl(132, 13%, 85%);
+  color: #131212;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #218838;
+}
+
+.summary-card {
+  background-color: rgba(240, 9, 9, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(16, 16, 16);
+  width: 300px; 
+  max-width: 100%; 
+  text-align: left;
+}
+.error-message {
+  color: red;
+  font-style: italic;
+}

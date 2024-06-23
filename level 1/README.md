@@ -1,8 +1,15 @@
-# React + Vite
+# Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React application designed to create an event registration form with dynamic fields and basic validation.
 
-Currently, two official plugins are available:
+# To run the application locally:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone this repository.
+Navigate to the project directory.
+Install dependencies using 'npm install'.
+Start the development server with 'npm run dev'.
+
+# live demo
+A live demo of the project can be accessed at [Demo URL](react-form1.vercel.app)
+
+

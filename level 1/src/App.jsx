@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './App.css';
 
 const App = () => {
@@ -54,6 +54,11 @@ const App = () => {
       setFormVisible(false);
     }
   };
+  useEffect(() => {
+    if (formVisible) {
+      setErrors({});
+    }
+  }, [formVisible]);
 
   return (
     <div className="app-container">

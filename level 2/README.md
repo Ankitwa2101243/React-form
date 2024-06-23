@@ -11,6 +11,3 @@ Clone this repository.
 Navigate to the project directory.
 Install dependencies using 'npm install'.
 Start the development server with 'npm run dev'.
-
-# live demo
-A live demo of the project can be accessed at [Demo URL](react-form2-ten.vercel.app)

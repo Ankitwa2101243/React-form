@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
 import './App.css';
 
 const App = () => {
@@ -24,6 +24,10 @@ const App = () => {
   const [errors, setErrors] = useState({});
   const [submittedData, setSubmittedData] = useState(null);
   const [formVisible, setFormVisible] = useState(true);
+
+  useEffect(() => {
+    setErrors({});
+  }, [formData, formVisible]);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;

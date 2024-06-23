@@ -92,6 +92,7 @@ const App = () => {
     } else {
       setErrors({});
       setSubmittedData(formData);
+      alert('Form submitted successfully!')
       setFormVisible(false);
     }
   };
